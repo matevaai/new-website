@@ -1,9 +1,9 @@
 html, body {
   margin: 0;
-  color: #333;
+  color: #333333;
   background: #fff;
   font-size: 16px;
-  font-family: "Tahoma", "Calibri", sans-serif;
+  font-family: "Fira Sans",sans-serif;
 }
 
 .header {
@@ -14,10 +14,12 @@ html, body {
 
 .content {
   background-color: rgba(0,0,0, .1);
+  text-align: center;
 }
 
 .content .inner {
   min-height: 400px;
+  hr
 }
 
 .footer {
@@ -35,3 +37,16 @@ html, body {
   margin: 0 auto;
 }
 
+.inner h1 {
+  font-style: "Fira Sans",sans-serif 
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.inner hr {
+  margin: 10;
+  color: green;
+  width: 140px;
+  align: center;
+}
