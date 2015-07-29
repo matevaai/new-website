@@ -35,3 +35,30 @@ html, body {
   margin: 0 auto;
 }
 
+.inner h1{
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+.content .inner p{
+  font-size: 15px;
+  color: #747474
+
+}
+#header-line{
+  color: green;
+  margin: 0 37%;
+
+}
+.bottom-margin{
+  margin-bottom: 30px;
+}
+.content .inner h2{
+  font-size: 20px;
+}
+.content .inner{
+  background-color: white;
+}
+.content .inner div{
+  margin: 0 100px;
+}
